@@ -1,1 +1,12 @@
 hi this is cybersecurity code very confidential code
+
+spec:
+  replicas: 2
+
+  selector:
+    myname: sravan
+
+  template:
+    metadata:
+      labels:
+        myname: sravan
