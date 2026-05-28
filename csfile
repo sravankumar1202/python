@@ -4,9 +4,22 @@ spec:
   replicas: 2
 
   selector:
+    myname: varshik
+
+  template:
+    metadata:
+      labels:
+        myname: varshik
+
+
+spec:
+  replicas: 2
+
+  selector:
     myname: sravan
 
   template:
     metadata:
       labels:
         myname: sravan
+
